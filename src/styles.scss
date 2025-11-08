@@ -1,0 +1,25 @@
+ :root {
+    --bg: #0f1226;
+    --card: rgba(255,255,255,0.08);
+    --card-hover: rgba(255,255,255,0.12);
+    --text: #e9ecf1;
+    --muted: #a5acc1;
+    --accent: #7c4dff;
+    --accent-2: #00e5ff;
+    --danger: #ff5c7a;
+    --success: #00d68f;
+    --shadow: 0 20px 60px rgba(0,0,0,0.35);
+  }
+  * { box-sizing: border-box }
+  html, body { height: 100% }
+  body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(1200px 600px at 10% 10%, rgba(124,77,255,0.25), transparent),
+      radial-gradient(1000px 500px at 90% 30%, rgba(0,229,255,0.20), transparent),
+      linear-gradient(180deg, #0b0e22 0%, #0f1226 100%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
